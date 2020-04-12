@@ -1,11 +1,13 @@
-import React from 'react';
-import styles from './App.module.scss';
+import React from 'react'
+import styles from './App.module.scss'
+import SingleCard from './SingleCard'
 
-function App() {
-  return (
-    <div className={styles.App}>
-    </div>
-  );
+function App () {
+	return (
+		<div className={styles.App}>
+			<SingleCard />
+		</div>
+	)
 }
 
-export default App;
+export default App
